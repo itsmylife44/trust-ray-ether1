@@ -1,11 +1,11 @@
 import  * as express from "express";
 import { TransactionController } from "../controllers/TransactionController";
-import { EthoTokenController } from "../controllers/ethoTokenController";
+import { EthoTokenController } from "../controllers/EthoTokenController";
 import { StatusController } from "../controllers/StatusController";
 import { Pusher } from "../controllers/PusherController";
 import { DeviceRegistration } from "../controllers/DeviceRegistrationController";
 import { PriceController } from "../controllers/PriceController";
-import { EthoPriceController } from "../controllers/ethoPriceController";
+import { EthoPriceController } from "../controllers/EthoPriceController";
 import { TokenPriceController } from "../controllers/TokenPriceController";
 import { AssetsController } from "../controllers/AssestsController";
 
