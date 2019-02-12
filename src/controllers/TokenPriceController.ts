@@ -47,7 +47,7 @@ export class TokenPriceController {
             "ETC": "ethereum-classic",
             "POA": "poa-network",
             "CLO": "callisto-network",
-            "ETHO": "etho"
+            "ETHO": "ether-1"
         }
 
         const result1 = tokens.map((token: IToken) => {
