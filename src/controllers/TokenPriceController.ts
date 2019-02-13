@@ -15,7 +15,7 @@ export class TokenPriceController {
     private lastUpdated: any = {};
     private latestPrices: any = {};
     private isUpdating: any = {};
-    private githubImageURL: string = "https://raw.githubusercontent.com/ellaism/tokens/master/images/";
+    private githubImageURL: string = "https://raw.githubusercontent.com/TrustWallet/tokens/master/images/";
 
     getTokenPrices = (req: Request, res: Response) => {
         const currency = req.body.currency || "USD";
