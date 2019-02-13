@@ -8,6 +8,9 @@ export const contracts = {
     "0xdd974d5c2e2928dea5f71b9825b8b646686bd200": {
         id: "kyber-network"
     },
+    "0x000000000000000000000000000000000014095A": {
+        id: "ether1"
+    },    
     "0x1234567461d3f8db749681774bd869c83d51c93": {
         id: "bitclave"
     },
